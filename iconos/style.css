@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w9johz');
+  src:  url('fonts/icomoon.eot?w9johz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w9johz') format('truetype'),
+    url('fonts/icomoon.woff?w9johz') format('woff'),
+    url('fonts/icomoon.svg?w9johz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+
+}
+.icon-mail4:before {
+  content: "\ea86";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.icon-facebook:before {
+  content: "\ea90";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 45px;
+}
+.icon-instagram:before {
+  content: "\ea92";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 45px;
+}
+.icon-twitter:before {
+  content: "\ea96";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 45px;
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+  color: #c5b665;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 45px;
+}
